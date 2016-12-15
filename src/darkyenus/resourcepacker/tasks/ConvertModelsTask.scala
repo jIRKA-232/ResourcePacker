@@ -34,8 +34,6 @@ import scala.util.matching.Regex
  */
 object ConvertModelsTask extends Task {
 
-  private val FbxConvBinariesUrl = "http://libgdx.badlogicgames.com/fbx-conv/fbx-conv.zip"
-
   private val MtlLibRegex = "mtllib ((?:\\w|/|-|\\.)+\\w\\.mtl)".r
   private val TextureRegex = "map_Kd ((?:\\w|/|-|\\.)+\\w\\.(?:png|jpg|jpeg))".r
 
